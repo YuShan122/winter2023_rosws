@@ -1,0 +1,3 @@
+float32 time
+geometry_msgs/Twist positon
+geometry_msgs/Twist velocity

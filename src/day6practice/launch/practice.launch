@@ -1,0 +1,11 @@
+<launch>
+    <!-- included in run.launch -->
+
+    <arg name="vel" />
+
+    <node type="param_practice" pkg="day6practice" name="param_practice" output="screen">
+        <param name="param" value="$(arg vel)" />
+    </node>
+
+
+</launch>

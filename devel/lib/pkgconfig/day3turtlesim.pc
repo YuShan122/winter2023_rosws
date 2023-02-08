@@ -1,0 +1,8 @@
+prefix=/home/yushan/winter2023_rosws/devel
+
+Name: day3turtlesim
+Description: Description of day3turtlesim
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

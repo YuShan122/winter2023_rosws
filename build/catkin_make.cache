@@ -1,0 +1,2 @@
+comm:day3turtlesim:day6practice:practice
+-DCATKIN_DEVEL_PREFIX=/home/yushan/winter2023_rosws/devel -DCMAKE_INSTALL_PREFIX=/home/yushan/winter2023_rosws/install -G Unix Makefiles

@@ -1,0 +1,10 @@
+<launch>
+    <rosparam command="load" file="$(find day6practice)/param/day6turtle.yaml" />
+    <arg name="xx" default="5" />
+    <param name="x" type="double" value="$(arg xx)" />
+    <node type="turtlesim_node" name="turtlesim_node" pkg="turtlesim" output="screen" />
+    <node type="day6turtle" name="day6turtle" pkg="day6practice" output="screen">
+        <remap from="goal_vel" to="turtle1/cmd_vel" />
+        <remap from="current_pose" to="turtle1/pose" />
+    </node>
+</launch>

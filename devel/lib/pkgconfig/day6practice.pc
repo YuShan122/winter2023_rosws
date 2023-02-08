@@ -1,0 +1,8 @@
+prefix=/home/yushan/winter2023_rosws/devel
+
+Name: day6practice
+Description: Description of day6practice
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

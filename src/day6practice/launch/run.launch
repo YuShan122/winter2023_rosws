@@ -1,0 +1,10 @@
+<launch>
+
+    <arg name="vel" default="100" />
+
+    <include file="$(find day6practice)/launch/practice.launch">
+        <arg name="vel" value="$(arg vel)" />
+    </include>
+
+
+</launch>
